@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/layout2"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:padding="5dp"
+        android:text="REGISTER FORM"
+        android:layout_marginBottom="20dp"/>
+
+    <RelativeLayout
+        android:id="@+id/layout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:textSize="15dp"
+            android:padding="5dp"
+            android:text="UserName"/>
+
+        <EditText
+            android:id="@+id/edittxt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt1"
+            android:padding="5dp"
+            android:singleLine="true" />
+        <TextView
+            android:id="@+id/txt3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:layout_below="@+id/edittxt1"
+            android:textSize="15dp"
+            android:padding="5dp"
+            android:text="Email"/>
+
+        <EditText
+            android:id="@+id/edittxt3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt3"
+            android:inputType="textEmailAddress"
+            android:padding="5dp"
+            android:singleLine="true" />
+        <TextView
+            android:id="@+id/txt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edittxt3"
+            android:layout_margin="12dp"
+            android:textSize="15dp"
+            android:padding="5dp"
+            android:text="Password"/>
+
+        <EditText
+            android:id="@+id/edittxt2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt2"
+            android:inputType="textPassword"
+            android:padding="5dp"
+            android:singleLine="true" />
+
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:text="Register -> "/>
+
+    <TextView
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/add"
+        android:layout_margin="15dp"
+        android:padding="5dp"
+        android:onClick="nextActivity"
+        android:text="Click Here To Login"/>
+
+    <RelativeLayout
+        android:id="@+id/layout3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/register"
+        android:layout_centerHorizontal="true">
+
+
+        <Button
+            android:id="@+id/update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:text="UPDATE" />
+
+        <Button
+            android:id="@+id/delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_toRightOf="@+id/update"
+            android:gravity="center"
+            android:text="DELETE"/>
+
+        <Button
+            android:id="@+id/viewall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_toRightOf="@+id/delete"
+            android:gravity="center"
+            android:text="VIEW ALL"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

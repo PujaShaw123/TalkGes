@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1017871046280",
+    "firebase_url": "https://talkges-71319.firebaseio.com",
+    "project_id": "talkges-71319",
+    "storage_bucket": "talkges-71319.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1017871046280:android:f09754350f5579e1f2f13d",
+        "android_client_info": {
+          "package_name": "com.example.talkges"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1017871046280-f7s04bgo34chkivj22ri2m529bhfcph3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChiWqAZuIPpVUVs-wprnMUgr682-zSOR8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1017871046280-f7s04bgo34chkivj22ri2m529bhfcph3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
